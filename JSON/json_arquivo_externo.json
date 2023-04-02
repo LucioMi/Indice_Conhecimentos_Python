@@ -1,0 +1,10 @@
+{
+    "nome":"lucio",
+    "time":"galo",
+    "gosta":["python","back-end","c++","database"],
+    "metas":[
+        {"tipo":"trabalho","recurso":0},
+        {"tipo":"realização","recurso":0},
+        {"tipo":"felicidade","recurso":0}
+    ]
+}
