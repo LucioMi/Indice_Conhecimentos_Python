@@ -1,4 +1,4 @@
-import json
+import os #para poder apagar os arquivos
 
 nome = "teste.txt"
 """ 
@@ -46,6 +46,11 @@ f.close() """
                                                                    DELETANDO O ARQUIVO  
 ============================================================================================================================================================="""
 
+""" f = open("ARQUIVOS/teste2.txt","x")
 
 
+f.close()  """
 
+#para apagar um arquivo é necessario usar o modulo 'os'
+if os.path.exists("ARQUIVOS/teste2.txt"):     #so uma possibilidade de if que eu achei interessante
+    os.remove("ARQUIVOS/teste2.txt")
